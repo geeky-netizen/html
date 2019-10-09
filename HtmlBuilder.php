@@ -6,7 +6,9 @@ use Illuminate\Support\Traits\Macroable;
 class HtmlBuilder {
 
 	use Macroable;
-
+	for ($x = 0; $x <= 10; $x++) {
+        echo "The number is: $x <br>";
+	}
 	/**
 	 * The URL generator instance.
 	 *
